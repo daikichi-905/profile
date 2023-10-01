@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+html{
+  font-size: 99%;
+}
+
+body{
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGohtic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* ------HEADER------ */
+.logo{
+  width: 150px;
+  margin-top: 14px;
+  border-radius: 100px;
+}
+
+.wrapper{
+  max-width: 2000px;
+  margin: 0 50px;
+
+}
+
+span{
+  vertical-align: middle;
+}
+
+span.profile{
+  font-size: 120px;
+  font-family: 'Londrina Shadow', cursive;
+  margin-right: 300px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* ------HEADER.nav------ */
+.nav{
+  list-style: none;
+  display: flex;
+}
+
+.nav li{
+  margin-left: 30px;
+  font-size: 60px;
+  font-family: 'Londrina Shadow', cursive;
+}
+
+.nav a{
+  color: #432;
+}
+/* ------main------ */
+.main{
+  text-align: center;
+}
+/* ------mainname------ */
+.name{
+  margin-bottom: 16px;
+}
+
+h1.name{
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 64px;
+}
+
+.about{
+  font-size: 24px;
+}
+/* ------mainhobby------ */
+h1.hobby{
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.soccer{
+  font-size: 24px;
+}
+.city{
+  width: 320px;
+  height: 320px;
+  border-radius: 50px;
+  margin-top: 16px;
+}
+/* ------mainskill------ */
+.skill{
+  text-align: center;
+}
+
+h1.license{
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 64px;
+  margin-bottom: 16px;
+}
